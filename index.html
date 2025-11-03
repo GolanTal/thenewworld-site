@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The New World: The Key — Official Book Site</title>
+  <meta name="description" content="A grounded guide to move from the Old World's noise into clear, practical steps toward inner truth. Get the companion kit and launch updates." />
+  <meta property="og:title" content="The New World: The Key — Official Book Site" />
+  <meta property="og:description" content="Get the companion kit, join the 7‑day practice, and follow launch updates." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/images/cover-social.jpg" />
+  <meta property="og:url" content="https://YOURDOMAIN" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <style>
+    :root { --bg:#f8fafc; --fg:#0f172a; --muted:#334155; --accent:#0ea5e9; --ring:rgba(14,165,233,.35); }
+    * { box-sizing: border-box; } body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Arial; color:var(--fg); background:var(--bg); }
+    .wrap { max-width:960px; margin:0 auto; padding:24px; }
+    header { display:grid; grid-template-columns:120px 1fr; gap:20px; align-items:center; margin-top:24px; }
+    header img { width:100%; height:auto; border-radius:12px; box-shadow:0 6px 20px rgba(0,0,0,.12); }
+    h1 { margin:0 0 6px; font-size: clamp(26px, 4vw, 40px); }
+    p.lead { margin:8px 0 16px; color:var(--muted); font-size:18px; }
+    .cta { display:flex; flex-wrap:wrap; gap:12px; margin:16px 0 24px; }
+    .btn { appearance:none; border:1px solid transparent; background:var(--fg); color:#fff; padding:12px 16px; border-radius:12px; font-weight:600; text-decoration:none; transition: transform .05s ease, box-shadow .2s ease, background .2s ease; }
+    .btn.secondary { background:#fff; color:var(--fg); border-color:#cbd5e1; }
+    .btn:hover { transform: translateY(-1px); box-shadow:0 6px 18px rgba(2,6,23,.12); }
+    section { margin:48px 0; } h2 { font-size: clamp(22px, 3.2vw, 28px); margin-bottom:12px; }
+    .grid { display:grid; grid-template-columns: repeat(3, 1fr); gap:16px; }
+    .card { background:#fff; border:1px solid #e2e8f0; border-radius:16px; padding:16px; box-shadow:0 2px 8px rgba(0,0,0,.04); }
+    footer { margin:48px 0 16px; color:#64748b; font-size:14px; }
+    .subtle { color:#64748b; }
+    @media (max-width: 720px) { header { grid-template-columns: 1fr; } .grid { grid-template-columns: 1fr; } }
+    input, textarea { width:100%; padding:12px 14px; border:1px solid #cbd5e1; border-radius:12px; outline:none; }
+    input:focus, textarea:focus { border-color:var(--accent); box-shadow:0 0 0 4px var(--ring); }
+    .note { font-size:14px; color:#475569; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <img src="/images/cover-3d.png" alt="The New World: The Key — Book cover" />
+      <div>
+        <h1>The New World: The Key</h1>
+        <p class="lead">A grounded guide to move from the <strong>Old World</strong>'s noise into clear, practical steps toward inner truth.</p>
+        <div class="cta">
+          <a class="btn" href="https://www.amazon.com/dp/XXXXXXXX?utm_source=site&utm_medium=button&utm_campaign=book_launch&utm_content=buy-now" target="_blank" rel="noopener">Buy on Amazon</a>
+          <a class="btn secondary" href="#subscribe">Get the Companion Kit</a>
+        </div>
+        <p class="note">Join the list and receive one simple practice each week.</p>
+      </div>
+    </header>
+
+    <section id="subscribe">
+      <h2>Get the Companion Kit</h2>
+      <p class="subtle">Drop your email to receive the kit and weekly practices. Unsubscribe anytime.</p>
+      <!-- Substack embed: replace YOURSUBSTACK with your publication handle -->
+      <iframe src="https://YOURSUBSTACK.substack.com/embed" width="100%" height="180" style="border:1px solid #e2e8f0; background:#fff; border-radius:12px;" frameborder="0" scrolling="no"></iframe>
+    </section>
+
+    <section>
+      <h2>What’s inside</h2>
+      <div class="grid">
+        <div class="card"><strong>Awakening stories</strong><br/><span class="subtle">Real moments of doubt, choice, and change.</span></div>
+        <div class="card"><strong>Future world glimpses</strong><br/><span class="subtle">Scenes and concepts that feel close and possible.</span></div>
+        <div class="card"><strong>Practices</strong><br/><span class="subtle">Small steps you can try today.</span></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Reviews & praise</h2>
+      <div class="card">
+        <em>“A calm, clear light in a noisy world.”</em> — <span class="subtle">Early reader</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Events & media</h2>
+      <ul class="subtle">
+        <li>Live Q&A — DATE — link</li>
+        <li>Podcast: TITLE — DATE — link</li>
+      </ul>
+    </section>
+
+    <footer>
+      <div>© <span id="year"></span> Your Name. <a href="https://YOUR-PRIVACY-URL" target="_blank" rel="noopener">Privacy</a> • <a href="https://www.goodreads.com/" target="_blank" rel="noopener">Goodreads</a> • <a href="https://www.instagram.com/YOURHANDLE" target="_blank" rel="noopener">Instagram</a></div>
+    </footer>
+  </div>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <!-- Optional GA4: replace G-XXXXXXX -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXX');</script> -->
+</body>
+</html>
